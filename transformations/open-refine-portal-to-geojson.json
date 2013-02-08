@@ -1,0 +1,28 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column EDIT_USERI using expression grel:\"City_of_Chicago\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EDIT_USERI",
+    "expression": "grel:\"City_of_Chicago\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column CREATE_USE using expression grel:\"City_of_Chicago\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CREATE_USE",
+    "expression": "grel:\"City_of_Chicago\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  }
+]
